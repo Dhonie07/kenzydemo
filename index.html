@@ -7,9 +7,24 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Mogra&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <h1 class="loader-percentage" id="loaderPercentage">0%</h1>
+            <div class="loader-bar">
+                <div class="loader-progress" id="loaderProgress"></div>
+            </div>
+            <h2 class="loader-title">KENZY</h2>
+            <p class="loader-subtitle">Artist • Actor • Influencer</p>
+            <div class="loader-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <div class="logo">KENZY</div>
@@ -60,15 +75,13 @@
                     </svg>
                 </a>
             </div>
-            <div class="spotify-embed">
-                <div class="spotify-player">
-                    <img src="assets/unruly-cover.jpg" alt="Unruly Album Cover" class="album-art">
-                    <div class="track-info">
-                        <div class="track-title">Unruly</div>
-                        <div class="track-artist">KENZY</div>
-                    </div>
-                    <button class="play-btn">▶</button>
+            <div class="spotify-card">
+                <img src="assets/unruly-cover.jpg" alt="Unruly Album Cover" class="spotify-album-art">
+                <div class="spotify-info">
+                    <div class="spotify-track-title">UNRULY</div>
+                    <div class="spotify-artist">KENZY</div>
                 </div>
+                <button class="spotify-play-btn">▶</button>
             </div>
         </div>
         <div class="scroll-indicator">
