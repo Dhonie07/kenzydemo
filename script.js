@@ -1,4 +1,29 @@
+window.addEventListener('load', function() {
+    const loader = document.getElementById('loader');
+    const loaderPercentage = document.getElementById('loaderPercentage');
+    const loaderProgress = document.getElementById('loaderProgress');
+    let percentage = 0;
+
+    const loadingInterval = setInterval(() => {
+        percentage += Math.random() * 15;
+        if (percentage >= 100) {
+            percentage = 100;
+            clearInterval(loadingInterval);
+            
+            setTimeout(() => {
+                loader.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }, 500);
+        }
+        
+        loaderPercentage.textContent = Math.floor(percentage) + '%';
+        loaderProgress.style.width = percentage + '%';
+    }, 100);
+});
+
 document.addEventListener('DOMContentLoaded', function() {
+    document.body.style.overflow = 'hidden';
+    
     const hamburger = document.getElementById('hamburger');
     const navLinks = document.getElementById('navLinks');
     const closeMenu = document.getElementById('closeMenu');
@@ -8,11 +33,13 @@ document.addEventListener('DOMContentLoaded', function() {
     hamburger.addEventListener('click', function() {
         navLinks.classList.toggle('active');
         hamburger.classList.toggle('active');
+        document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : 'auto';
     });
 
     closeMenu.addEventListener('click', function() {
         navLinks.classList.remove('active');
         hamburger.classList.remove('active');
+        document.body.style.overflow = 'auto';
     });
 
     navLinkItems.forEach(link => {
@@ -23,12 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
             if (window.innerWidth <= 768) {
                 navLinks.classList.remove('active');
                 hamburger.classList.remove('active');
+                document.body.style.overflow = 'auto';
             }
         });
     });
 
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 50) {
             navbar.classList.add('scrolled');
         } else {
             navbar.classList.remove('scrolled');
@@ -62,39 +90,17 @@ document.addEventListener('DOMContentLoaded', function() {
         this.reset();
     });
 
-    const playButtons = document.querySelectorAll('.play-btn, .card-play-btn, .movie-play-btn');
+    const playButtons = document.querySelectorAll('.spotify-play-btn, .card-play-btn, .movie-play-btn');
     playButtons.forEach(btn => {
         btn.addEventListener('click', function(e) {
             e.preventDefault();
-            const pulse = document.createElement('div');
-            pulse.style.cssText = `
-                position: absolute;
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-                background: rgba(255, 0, 0, 0.5);
-                pointer-events: none;
-                animation: pulse 0.6s ease-out;
-            `;
-            this.parentElement.appendChild(pulse);
-            setTimeout(() => pulse.remove(), 600);
+            
+            this.style.transform = 'scale(0.9)';
+            setTimeout(() => {
+                this.style.transform = '';
+            }, 200);
         });
     });
-
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes pulse {
-            0% {
-                transform: translate(-50%, -50%) scale(0);
-                opacity: 1;
-            }
-            100% {
-                transform: translate(-50%, -50%) scale(2);
-                opacity: 0;
-            }
-        }
-    `;
-    document.head.appendChild(style);
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
@@ -149,4 +155,24 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
         });
     });
+
+    const spotifyCard = document.querySelector('.spotify-card');
+    if (spotifyCard) {
+        spotifyCard.addEventListener('mouseenter', function() {
+            this.style.animation = 'none';
+            setTimeout(() => {
+                this.style.animation = '';
+            }, 10);
+        });
+    }
+
+    const heroTitle = document.querySelector('.hero-title');
+    if (heroTitle) {
+        setInterval(() => {
+            heroTitle.style.animation = 'none';
+            setTimeout(() => {
+                heroTitle.style.animation = 'glitch 3s infinite';
+            }, 10);
+        }, 5000);
+    }
 });
