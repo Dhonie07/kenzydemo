@@ -49,7 +49,7 @@ Preferred communication style: Simple, everyday language.
 - Background: Near-black (#0a0a0a, #000000) for dramatic contrast
 - Text: White (#ffffff) and gray (#b3b3b3) for hierarchy
 
-**Typography**: Custom font stack using Google Fonts ('Creepster', 'Bebas Neue') for distinctive branding
+**Typography**: Custom font stack using Google Fonts ('Cinzel' for titles, 'Mogra' for descriptions) for distinctive branding
 
 **Layout System**: Flexbox-based responsive layout without grid, optimized for simple section-based structure
 
@@ -66,7 +66,7 @@ Preferred communication style: Simple, everyday language.
 ### Content Delivery Networks (CDNs)
 
 1. **Google Fonts**
-   - **Fonts Used**: 'Creepster' (display), 'Bebas Neue' (body text)
+   - **Fonts Used**: 'Cinzel' (bold weight for titles), 'Mogra' (for descriptions)
    - **Purpose**: Custom typography for brand identity
    - **Integration**: Preconnect optimization for faster font loading
 
@@ -107,6 +107,17 @@ This is a completely static frontend application with no:
 
 ## Recent Changes
 
+### October 6, 2025 - Enhanced Animations & Typography Updates
+
+**New Features & Improvements**:
+- ✅ **Loading Screen**: Animated 1-100% counter with progress bar, KENZY title, subtitle, and pulsing dots on first visit
+- ✅ **Spotify Card Redesign**: Replaced embed with sleek black card featuring album art, track info, and red play button
+- ✅ **Typography Overhaul**: Changed to Cinzel (bold) for all titles and Mogra for all descriptions with optimized sizes
+- ✅ **Mobile Navigation Fix**: Removed black space at top, navigation now sits perfectly over video background
+- ✅ **Enhanced Animations**: Added parallax scrolling, glitch effects on hover, smooth fade-ins, and enhanced transitions
+- ✅ **Spacing Optimization**: Reduced padding on mobile (from 100px to 50-80px) for better mobile experience
+- ✅ **Improved Responsiveness**: Fine-tuned breakpoints at 1024px (tablet), 768px (mobile), and 480px (small mobile)
+
 ### October 5, 2025 - Complete Website Implementation
 
 **Implemented Features**:
@@ -120,7 +131,6 @@ This is a completely static frontend application with no:
 - ✅ Responsive design with breakpoints at 1024px (tablet), 768px (mobile), and 480px (small mobile)
 - ✅ Smooth scroll animations, fade-in effects, and interactive hover states
 - ✅ Dark theme with red accent color (#FF0000) throughout
-- ✅ Artistic fonts (Creepster for titles, Bebas Neue for body text) with proper legibility
 
 **File Structure**:
 ```
