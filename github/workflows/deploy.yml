@@ -22,4 +22,6 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync . s3://kenzydemo-website-375530451035-us-east-1-an --delete
+        aws s3 sync "KENZY DONE/" s3://kenzydemo-website-375530451035-us-east-1-an --delete
+        
+    
