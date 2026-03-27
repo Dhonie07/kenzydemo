@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KENZY - Artist • Actor • Influencer</title>
+    <title>Watch Kenzy</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Mogra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Mogra&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:wght@600&display=swap"
+        rel="stylesheet">
+
+        <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 </head>
+
 <body>
     <div id="loader" class="loader">
         <div class="loader-content">
@@ -16,8 +30,9 @@
             <div class="loader-bar">
                 <div class="loader-progress" id="loaderProgress"></div>
             </div>
-            <h2 class="loader-title">KENZY</h2>
-            <p class="loader-subtitle">Artist • Actor • Influencer</p>
+            <h2 class="loader-title">Kenzy</h2>
+            <p class="loader-subtitle">Watch Kenzy Online
+            </p>
             <div class="loader-dots">
                 <span></span>
                 <span></span>
@@ -27,12 +42,15 @@
     </div>
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <div class="logo">KENZY</div>
+            <!-- <div class="logo">KENZY</div> -->
+            <a href="#home"><img src="./media/logo.png" alt="KENZY Logo" class="logo" style="height: 90px; width: 110px; @media (max-width: 480px) {
+    width: 100px;
+    }"></a>
             <div class="nav-links" id="navLinks">
                 <a href="#home" class="nav-link active">Home</a>
-                <a href="#music" class="nav-link">Music</a>
-                <a href="#movies" class="nav-link">Movies</a>
-                <a href="#about" class="nav-link">About</a>
+                <a href="#music" class="nav-link">Movies</a>
+                <a href="#movies" class="nav-link">Featured</a>
+                <a href="#about" class="nav-link">Newsletter</a>
                 <button class="close-menu" id="closeMenu">&times;</button>
             </div>
             <div class="hamburger" id="hamburger">
@@ -46,7 +64,7 @@
     <section id="home" class="hero-section">
         <div class="video-background">
             <video autoplay muted loop playsinline id="heroVideo">
-                <source src="assets/hero-video.mp4" type="video/mp4">
+                <source src="./media/Screen Recording 2025-09-12 at 14.25.33.mov" type="video/mp4">
             </video>
             <div class="video-overlay"></div>
         </div>
@@ -54,36 +72,97 @@
             <h1 class="hero-title" data-text="UNRULY">UNRULY</h1>
             <p class="hero-subtitle">OUT ON ALL PLATFORMS</p>
             <div class="platform-icons">
-                <a href="#" class="platform-icon spotify" aria-label="Spotify">
+                <a href="https://open.spotify.com/artist/4oC6PKW1xd6ktLDuE8vv7c" class="platform-icon spotify"
+                    aria-label="Spotify">
                     <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                        <path
+                            d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
                     </svg>
                 </a>
-                <a href="#" class="platform-icon apple" aria-label="Apple Music">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M23.994 6.124a9.23 9.23 0 0 0-.24-2.132c-.317-1.314-1.062-2.31-2.213-3.024-1.008-.629-2.12-.906-3.308-.906-1.08 0-2.076.186-3.021.557-1.214.477-2.317 1.174-3.308 2.083-.992.911-1.77 1.946-2.317 3.108-.992.911-1.77 1.946-2.317 3.108a13.13 13.13 0 0 0-1.302 3.617 15.93 15.93 0 0 0-.24 2.132c0 .949.092 1.873.264 2.767.173.895.457 1.747.851 2.557.394.811.903 1.563 1.527 2.257.623.694 1.346 1.293 2.168 1.798a9.535 9.535 0 0 0 2.652 1.115c.903.234 1.838.351 2.805.351 1.08 0 2.076-.186 3.021-.557 1.214-.477 2.317-1.174 3.308-2.083.992-.911 1.77-1.946 2.317-3.108a13.13 13.13 0 0 0 1.302-3.617 15.93 15.93 0 0 0 .24-2.132c0-.949-.092-1.873-.264-2.767zm-3.076 8.043c-.234.692-.57 1.338-1.008 1.937-.437.599-.957 1.14-1.56 1.623-.602.483-1.271.876-2.006 1.18-.735.304-1.527.456-2.377.456-.85 0-1.642-.152-2.377-.456-.735-.304-1.404-.697-2.006-1.18-.603-.483-1.123-1.024-1.56-1.623a7.806 7.806 0 0 1-1.008-1.937 8.91 8.91 0 0 1-.528-3.108c0-.817.092-1.614.277-2.391a9.074 9.074 0 0 1 .781-2.132 9.228 9.228 0 0 1 1.195-1.937c.457-.599.986-1.14 1.588-1.623.602-.483 1.271-.876 2.006-1.18.735-.304 1.527-.456 2.377-.456s1.642.152 2.377.456c.735.304 1.404.697 2.006 1.18.602.483 1.131 1.024 1.588 1.623a9.228 9.228 0 0 1 1.195 1.937c.317.692.555 1.422.715 2.19.16.768.24 1.556.24 2.363 0 1.08-.176 2.124-.528 3.132z"/>
+                <a href="https://www.boomplay.com/artists/83958572?from=search&srModel=COPYLINK&srList=WEB"
+                    class="platform-icon youtube" aria-label="YouTube">
+                    <svg width="256px" height="256px" viewBox="0 0 48.00 48.00" id="b"
+                        xmlns="http://www.w3.org/2000/svg" fill="#472e2e" stroke="#472e2e" stroke-width="4.8">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                            stroke-width="4.512">
+                            <defs>
+                                <style>
+                                    .c {
+                                        fill: none;
+                                        stroke: #31abc9;
+                                        stroke-linecap: round;
+                                        stroke-linejoin: round;
+                                    }
+                                </style>
+                            </defs>
+                            <circle class="c" cx="25.8" cy="15.3" r="3.3"></circle>
+                            <circle class="c" cx="24.8" cy="31.8" r="4.1"></circle>
+                            <line class="c" x1="26" y1="12" x2="15.3" y2="10.8"></line>
+                            <line class="c" x1="25.1" y1="27.7" x2="11.8" y2="26.2"></line>
+                            
+                            <path class="c"
+                                d="m29.4,22.6c5.5,0,10,4.5,10,10s-4.5,10-10,10H12.2c-2.1,0-3.6-1.9-3.2-4L16,6.6c.1-.6.7-1,1.3-1h11.8c4.7,0,8.4,3.8,8.4,8.5,0,4.5-3.5,8.3-8.1,8.5">
+                            </path>
+                        </g>
+                        <g id="SVGRepo_iconCarrier">
+                            <defs>
+                                <style>
+                                    .c {
+                                        fill: none;
+                                        stroke: #31abc9;
+                                        stroke-linecap: round;
+                                        stroke-linejoin: round;
+                                    }
+                                </style>
+                            </defs>
+                            <circle class="c" cx="25.8" cy="15.3" r="3.3"></circle>
+                            <circle class="c" cx="24.8" cy="31.8" r="4.1"></circle>
+                            <line class="c" x1="26" y1="12" x2="15.3" y2="10.8"></line>
+                            <line class="c" x1="25.1" y1="27.7" x2="11.8" y2="26.2"></line>
+                            <path class="c"
+                                d="m29.4,22.6c5.5,0,10,4.5,10,10s-4.5,10-10,10H12.2c-2.1,0-3.6-1.9-3.2-4L16,6.6c.1-.6.7-1,1.3-1h11.8c4.7,0,8.4,3.8,8.4,8.5,0,4.5-3.5,8.3-8.1,8.5">
+                            </path>
+                        </g>
                     </svg>
                 </a>
-                <a href="#" class="platform-icon soundcloud" aria-label="SoundCloud">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.949 17.5h-8.88c-.27 0-.489-.219-.489-.489V9.511c0-.27.219-.489.489-.489h8.88c.27 0 .489.219.489.489v7.5c0 .27-.219.489-.489.489z"/>
+
+                <a href="https://music.apple.com/ng/artist/k3nzy/1727332735" class="platform-icon apple"
+                    aria-label="Apple Music">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#f0adad">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M10.0909 11.9629L19.3636 8.63087V14.1707C18.8126 13.8538 18.1574 13.67 17.4545 13.67C15.4964 13.67 13.9091 15.096 13.9091 16.855C13.9091 18.614 15.4964 20.04 17.4545 20.04C19.4126 20.04 21 18.614 21 16.855C21 16.855 21 16.8551 21 16.855L21 7.49236C21 6.37238 21 5.4331 20.9123 4.68472C20.8999 4.57895 20.8852 4.4738 20.869 4.37569C20.7845 3.86441 20.6352 3.38745 20.347 2.98917C20.2028 2.79002 20.024 2.61055 19.8012 2.45628C19.7594 2.42736 19.716 2.39932 19.6711 2.3722L19.6621 2.36679C18.8906 1.90553 18.0233 1.93852 17.1298 2.14305C16.2657 2.34086 15.1944 2.74368 13.8808 3.23763L11.5963 4.09656C10.9806 4.32806 10.4589 4.52419 10.0494 4.72734C9.61376 4.94348 9.23849 5.1984 8.95707 5.57828C8.67564 5.95817 8.55876 6.36756 8.50501 6.81203C8.4545 7.22978 8.45452 7.7378 8.45455 8.33743V16.1307C7.90347 15.8138 7.24835 15.63 6.54545 15.63C4.58735 15.63 3 17.056 3 18.815C3 20.574 4.58735 22 6.54545 22C8.50355 22 10.0909 20.574 10.0909 18.815C10.0909 18.815 10.0909 18.8151 10.0909 18.815L10.0909 11.9629Z"
+                                fill="#fbdfe5"></path>
+                        </g>
                     </svg>
                 </a>
-                <a href="#" class="platform-icon youtube" aria-label="YouTube">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                <a href="https://www.shazam.com/artist/k3nzy/1727332735" class="platform-icon soundcloud"
+                    aria-label="SoundCloud">
+                    <svg fill="#000" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M16 0c-8.839 0-16 7.161-16 16 0 8.833 7.161 16 16 16s16-7.167 16-16c0-8.839-7.161-16-16-16zM13.161 22.313c-1.714 0-3.427-0.568-4.745-1.708-1.62-1.396-2.578-3.302-2.708-5.365-0.12-1.995 0.563-3.922 1.917-5.422 1.521-1.682 4.25-4.297 4.365-4.411 0.74-0.708 1.917-0.682 2.625 0.063 0.703 0.74 0.682 1.917-0.063 2.625-0.026 0.026-2.745 2.635-4.182 4.219-0.677 0.755-1.016 1.714-0.958 2.703 0.068 1.052 0.573 2.036 1.427 2.781 1.125 0.974 3.349 1.188 4.74-0.057 0.823-0.745 1.828-1.833 1.839-1.849 0.693-0.755 1.865-0.802 2.62-0.104 0.755 0.693 0.802 1.865 0.109 2.625-0.047 0.047-1.135 1.229-2.094 2.094-1.344 1.203-3.115 1.807-4.891 1.807zM24.375 22.182c-1.521 1.682-4.25 4.302-4.365 4.411-0.365 0.344-0.823 0.516-1.281 0.516-0.49 0-0.979-0.193-1.344-0.573-0.708-0.745-0.682-1.922 0.063-2.63 0.026-0.026 2.75-2.635 4.182-4.219 0.677-0.755 1.016-1.714 0.958-2.703-0.068-1.052-0.573-2.042-1.427-2.781-1.125-0.974-3.349-1.188-4.74 0.057-0.828 0.745-1.828 1.839-1.839 1.849-0.693 0.755-1.865 0.802-2.62 0.109s-0.807-1.87-0.109-2.625c0.047-0.052 1.13-1.234 2.094-2.099 2.641-2.37 6.964-2.417 9.635-0.104 1.62 1.401 2.578 3.307 2.703 5.37 0.125 1.995-0.557 3.927-1.911 5.422z">
+                            </path>
+                        </g>
                     </svg>
                 </a>
             </div>
-            <div class="spotify-card">
-                <img src="assets/unruly-cover.jpg" alt="Unruly Album Cover" class="spotify-album-art">
-                <div class="spotify-info">
-                    <div class="spotify-track-title">UNRULY</div>
-                    <div class="spotify-artist">KENZY</div>
-                </div>
-                <button class="spotify-play-btn">▶</button>
-            </div>
+
         </div>
+        <!-- Spotify Song Embed Card -->
+        <div class="spotify-card">
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/track/4zBfwYSbEdxqJBrtNw1Os6?utm_source=generator&theme=0"
+                width="100%" height="152" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </div>
+
         <div class="scroll-indicator">
             <div class="mouse">
                 <div class="wheel"></div>
@@ -91,216 +170,1290 @@
         </div>
     </section>
 
-    <section id="music" class="music-section">
-        <div class="container">
-            <h2 class="section-title">MUSIC CATALOG</h2>
-            <div class="music-grid">
-                <div class="music-card featured">
-                    <div class="music-card-image">
-                        <img src="assets/unruly-cover.jpg" alt="Unruly">
-                        <div class="card-overlay">
-                            <button class="card-play-btn">▶</button>
-                        </div>
-                    </div>
-                    <div class="music-card-content">
-                        <h3>UNRULY</h3>
-                        <p>Latest Release • 2024</p>
-                        <div class="music-card-actions">
-                            <a href="#" class="btn-primary">
-                                <svg viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
-                                </svg>
-                                Play on Spotify
-                            </a>
-                            <a href="#" class="btn-secondary">Listen Everywhere</a>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="music-card">
-                    <div class="music-card-image">
-                        <img src="assets/spoil-you.jpg" alt="Spoil You">
-                        <div class="card-overlay">
-                            <button class="card-play-btn">▶</button>
-                        </div>
-                    </div>
-                    <div class="music-card-content">
-                        <h3>SPOIL YOU FT K3NZY</h3>
-                        <p>Released • 2025</p>
-                    </div>
-                </div>
+    <!-- <section id="music-collection" style="padding:60px 20px;background:#000;color:#fff;display:flex;flex-direction:column;
+           align-items:center;justify-content:center;">
 
-                <div class="music-card">
-                    <div class="music-card-image">
-                        <img src="assets/betty-butter.jpg" alt="Betty Butter">
-                        <div class="card-overlay">
-                            <button class="card-play-btn">▶</button>
-                        </div>
-                    </div>
-                    <div class="music-card-content">
-                        <h3>BETTY BUTTER</h3>
-                        <p>Released • 2024</p>
-                    </div>
-                </div>
+        <h2 class="section-title" style="
+      font-size: clamp(24px, 5vw, 50px);
+      font-weight: 900;
+      text-align: center;
+      background: linear-gradient(90deg, #ff0000cc, #fff, #ff0000cc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+      animation: bounceTitle 2s infinite ease-in-out, shineText 4s linear infinite;
+    ">
 
-                <div class="music-card">
-                    <div class="music-card-image">
-                        <img src="assets/oroma.jpg" alt="Oroma">
-                        <div class="card-overlay">
-                            <button class="card-play-btn">▶</button>
-                        </div>
-                    </div>
-                    <div class="music-card-content">
-                        <h3>OROMA</h3>
-                        <p>Released • 2024</p>
-                    </div>
-                </div>
+            MUSIC CATALOG
+
+            <style>
+                @keyframes bounceTitle {
+
+                    0%,
+                    100% {
+                        transform: translateY(0);
+                    }
+
+                    50% {
+                        transform: translateY(-6px);
+                    }
+                }
+
+                @keyframes shineText {
+                    0% {
+                        background-position: -200%;
+                    }
+
+                    100% {
+                        background-position: 200%;
+                    }
+                }
+
+                .section-title {
+                    background-size: 200%;
+                }
+            </style>
+        </h2>
+
+        <div class="music-layout" style="
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: start;
+    margin: auto;
+  ">
+
+           
+
+
+            
+                Inline Script -->
+                <script>
+                    function toggleSpotifyPreview(card) {
+                        const img = card.querySelector('img');
+                        const iframe = card.querySelector('.spotify-frame');
+                        const showing = iframe.style.opacity === '1';
+                        if (showing) {
+                            iframe.style.opacity = '0';
+                            img.style.opacity = '1';
+                            card.style.background = '#111';
+                        } else {
+                            iframe.style.opacity = '1';
+                            img.style.opacity = '0';
+                            card.style.background = 'linear-gradient(135deg,#ff0000d0,#000000f0)';
+                        }
+                    }
+
+                    // Close preview when clicking outside
+                    document.addEventListener('click', function (e) {
+                        const openFrame = document.querySelector('.spotify-frame[style*="opacity: 1"]');
+                        if (openFrame && !e.target.closest('.song-card')) {
+                            openFrame.style.opacity = '0';
+                            openFrame.closest('.song-card').querySelector('img').style.opacity = '1';
+                            openFrame.closest('.song-card').style.background = '#111';
+                        }
+                    });
+                </script>
+
+                <!-- Inline Mobile Styling -->
+                <style>
+                    @media (max-width: 768px) {
+                        .song-card {
+                            width: 100% !important;
+                            margin: 0 auto 25px !important;
+                        }
+
+                        .song-card-media {
+                            height: 210px !important;
+                        }
+
+                        .spotify-frame {
+                            height: 100% !important;
+                        }
+                    }
+                </style>
             </div>
-        </div>
-    </section>
 
-    <section id="movies" class="movies-section">
-        <div class="container">
-            <h2 class="section-title">ACTING CREDITS</h2>
+
+            <!-- MOBILE FIX -->
+            <style>
+                @media (max-width: 768px) {
+                    .music-layout {
+                        grid-template-columns: 1fr !important;
+                    }
+
+                    .featured-track {
+                        grid-column: span 1 !important;
+                        height: auto !important;
+                    }
+                }
+            </style>
+        </div>
+
+    </section> 
+
+    <section id="music" style="
+  background: linear-gradient(180deg, #0b0000, #000);
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+">
+<div class="container" style="position: relative; z-index: 1;">
+            <!-- 🔠 TITLE -->
+            <div
+                style="text-align:center; display:flex; justify-content:center; align-items:center; width:100%; margin:0px 0;">
+                <h2 class="section-title" style="
+        font-size: 45px;
+        font-weight: 900;
+        text-align: center;
+        background: linear-gradient(90deg, #ff0000cc, #ffffff, #ff0000cc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0;
+        display: inline-block;
+        animation: bounceTitle 2s infinite ease-in-out, shineText 4s linear infinite;
+        background-size: 200%;
+
+        @media (max-width: 480px) {
+            font-size: 20px;
+        }
+      ">
+                    Music
+                </h2>
+            </div>
+  <p style="
+    font-size: 13px;
+    margin-bottom: 60px;
+    color: #f4f4f4;
+    letter-spacing: 0.5px;
+  ">
+    • Listen to Kenzy Now •
+  </p>
+
+  <div class="music-cards" style="
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    animation: dropDown 1.5s ease-out;
+  ">
+
+    <!-- 🎧 Spotify Card -->
+    <div class="music-card spotify" style="
+      background: #121212;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      overflow: hidden;
+      animation: slowBounce 5s infinite ease-in-out;
+      max-width: 450px;
+      width: 100%;
+    ">
+      <iframe style="border-radius:16px; width:100%; height:352px;"
+        src="https://open.spotify.com/embed/artist/4oC6PKW1xd6ktLDuE8vv7c?utm_source=generator&theme=0"
+        frameBorder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <!-- 🍎 Apple Music Card (Playlist Version) -->
+    <div class="music-card apple" style="
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      overflow: hidden;
+      animation: slowBounce 5s infinite ease-in-out 2s;
+      max-width: 450px;
+      width: 100%;
+    ">
+      <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+        frameborder="0"
+        height="500"
+        style="width:100%; max-width:660px; overflow:hidden; border:none; background:transparent;"
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-popups-to-escape-sandbox"
+        src="https://embed.music.apple.com/ng/playlist/daily-kenzys/pl.u-Ymb0vd5IDPVX88E">
+      </iframe>
+    </div>
+  </div>
+
+  <style>
+    @keyframes dropDown {
+      0% { opacity: 0; transform: translateY(-50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slowBounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      #music {
+        padding: 60px 15px;
+      }
+
+      .music-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .music-card iframe {
+        height: 420px !important;
+      }
+    }
+  </style>
+</section>
+
+
+
+    <section id="movies" class="movies-section" style="
+  position: relative;
+  margin-top: 0px;
+  padding: 60px 0;
+  overflow: hidden;
+
+      @media (max-width: 992px) {
+        margin-top: -10px;
+    }
+
+    @media (max-width: 600px) {
+      .movies-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+      }
+    }
+">
+
+        <!-- 🔁 Background Slideshow -->
+        <!-- <div class="slideshow-bg">
+            <div class="slide" style="background-image: url('./attached_assets/kenzy1.jpg');"></div>
+            <div class="slide" style="background-image: url('./attached_assets/kenzzy 2.jpg');"></div>
+            <div class="slide" style="background-image: url('./attached_assets/kenzzy 3.jpg');"></div>
+            <div class="slide" style="background-image: url('./attached_assets/kenzzy 4.jpg');"></div>
+            <div class="slide" style="background-image: url('./attached_assets/kenzzy 5.jpg');"></div>
+            <div class="slide" style="background-image: url('./attached_assets/kenzzy 6.jpg');"></div>
+        </div> -->
+
+        <!-- ⚫ Dark Red Overlay -->
+        <div style="
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: linear-gradient(180deg, rgba(31, 0, 0, 0.8), rgba(0, 0, 0, 0.25));
+    z-index: 0;
+  "></div>
+
+        <div class="container" style="position: relative; z-index: 1;">
+            <!-- 🔠 TITLE -->
+            <div
+                style="text-align:center; display:flex; justify-content:center; align-items:center; width:100%; margin:60px 0;">
+                <h2 class="section-title" style="
+        font-size: clamp(29px, 5vw, 50px);
+        font-weight: 900;
+        text-align: center;
+        background: linear-gradient(90deg, #ff0000cc, #ffffff, #ff0000cc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0;
+        display: inline-block;
+        animation: bounceTitle 2s infinite ease-in-out, shineText 4s linear infinite;
+        background-size: 200%;
+        margin-top: -70px;
+        margin-bottom: -45px;
+
+    
+      ">
+                    Acting Credits
+                </h2>
+                
+            </div>
+
+            <!-- 🎬 MOVIES GRID -->
             <div class="movies-grid">
-                <div class="movie-card">
+
+                <!-- 🟥 CAMPUS CHRONICLES -->
+                <a href="https://www.youtube.com/watch?v=Ec82xoTu1Tw" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
                     <div class="movie-card-image">
-                        <img src="assets/movie1.jpg" alt="Love in the Time of Luxury 2">
+                        <img src="media/campus chronicles.jpg" alt="Campus Chronicles">
                         <span class="movie-badge">MOVIE</span>
                         <div class="movie-overlay">
-                            <button class="movie-play-btn">▶</button>
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://www.youtube.com/watch?v=Ec82xoTu1Tw','_blank')">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-card-content">
+                        <h3>JOURNEY TO SELF DISCOVERY - EPISODE 1 (campus chronicles)</h3>
+                        <p>Latest Release • 2025</p>
+                    </div>
+                </a>
+
+                <!-- 🟩 LUXURY 1 -->
+                <a href="https://youtu.be/HOET05Wedvs?si=E607epCIuIzsU-he" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
+                    <div class="movie-card-image">
+                        <img src="media/tb1.jpg" alt="Love in the Time of Luxury 2">
+                        <span class="movie-badge">MOVIE</span>
+                        <div class="movie-overlay">
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/HOET05Wedvs?si=E607epCIuIzsU-he','_blank')">▶</button>
                         </div>
                     </div>
                     <div class="movie-card-content">
                         <h3>LOVE IN THE TIME OF LUXURY 2</h3>
                         <p>Released • 2025</p>
                     </div>
-                </div>
+                </a>
 
-                <div class="movie-card">
+                <!-- 🟦 LOVE IN THE TIME OF LUXURY 1 -->
+                <a href="https://youtu.be/MYeNN_g0DjE?si=-HQOX8tc9Nci2Rs8" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
                     <div class="movie-card-image">
-                        <img src="assets/movie2.jpg" alt="Love in the Time of Luxury 1">
+                        <img src="media/tb2.jpg" alt="Love In The Time Of Luxury 1">
                         <span class="movie-badge">MOVIE</span>
                         <div class="movie-overlay">
-                            <button class="movie-play-btn">▶</button>
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/MYeNN_g0DjE?si=-HQOX8tc9Nci2Rs8','_blank')">▶</button>
                         </div>
                     </div>
                     <div class="movie-card-content">
                         <h3>LOVE IN THE TIME OF LUXURY 1</h3>
                         <p>Released • 2025</p>
                     </div>
-                </div>
+                </a>
 
-                <div class="movie-card">
+                <!-- 🟨 MY PRIDE -->
+                <a href="https://youtu.be/VMFfwxHnki8?si=GZa-Uv0bd5SWWXHt" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
                     <div class="movie-card-image">
-                        <img src="assets/movie3.jpg" alt="My Pride">
+                        <img src="./media/TB7.jpg" alt="My Pride">
                         <span class="movie-badge">MOVIE</span>
                         <div class="movie-overlay">
-                            <button class="movie-play-btn">▶</button>
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/VMFfwxHnki8?si=GZa-Uv0bd5SWWXHt','_blank')">▶</button>
                         </div>
                     </div>
                     <div class="movie-card-content">
-                        <h3>MY PRIDE</h3>
+                        <h3>MY PRIDE | NOLLYWOOD</h3>
                         <p>Released • 2025</p>
                     </div>
-                </div>
+                </a>
 
-                <div class="movie-card">
+                <!-- 🟧 MYSELF AND I PART 3 -->
+                <a href="https://youtu.be/mGeINoWmGlU?si=My7nJQL1cSZX7aC_" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
                     <div class="movie-card-image">
-                        <img src="assets/movie4.jpg" alt="Myself and I Part 3">
+                        <img src="media/tb3.jpg" alt="Myself and I Part 3">
                         <span class="movie-badge">MOVIE</span>
                         <div class="movie-overlay">
-                            <button class="movie-play-btn">▶</button>
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/mGeINoWmGlU?si=My7nJQL1cSZX7aC_','_blank')">▶</button>
                         </div>
                     </div>
                     <div class="movie-card-content">
                         <h3>MYSELF AND I (PART 3)</h3>
                         <p>Released • 2025</p>
                     </div>
-                </div>
+                </a>
 
-                <div class="movie-card">
+                <!-- 🟪 MYSELF AND I PART 2 -->
+                <a href="https://youtu.be/YjMvd9S5dpI?si=0_APJRIw00ktFQzp" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
                     <div class="movie-card-image">
-                        <img src="assets/movie5.jpg" alt="Myself and I Part 2">
+                        <img src="media/tb4.jpg" alt="Myself and I Part 2">
                         <span class="movie-badge">MOVIE</span>
                         <div class="movie-overlay">
-                            <button class="movie-play-btn">▶</button>
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/YjMvd9S5dpI?si=0_APJRIw00ktFQzp','_blank')">▶</button>
                         </div>
                     </div>
                     <div class="movie-card-content">
                         <h3>MYSELF AND I (PART 2)</h3>
                         <p>Released • 2025</p>
                     </div>
-                </div>
+                </a>
 
-                <div class="movie-card">
+                <!-- 🟪 MYSELF AND I PART 1 -->
+                <a href="https://youtu.be/wsYMVu1R3p8?si=qTc3t_js7dz6HFIQ" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
                     <div class="movie-card-image">
-                        <img src="assets/movie6.jpg" alt="Myself and I Part 1">
+                        <img src="media/tb5.jpg" alt="Myself and I Part 1">
                         <span class="movie-badge">MOVIE</span>
                         <div class="movie-overlay">
-                            <button class="movie-play-btn">▶</button>
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/wsYMVu1R3p8?si=qTc3t_js7dz6HFIQ','_blank')">▶</button>
                         </div>
                     </div>
                     <div class="movie-card-content">
                         <h3>MYSELF AND I (PART 1)</h3>
                         <p>Released • 2025</p>
                     </div>
-                </div>
+                </a>
+
+                <!-- THE ONLY BOY IN SS2 -->
+                <a href="https://youtu.be/m5FyFUZcnRI?si=kXwFc2QSqq1EOgtM" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
+                    <div class="movie-card-image">
+                        <img src="media/tb6.jpg" alt="Myself and I Part 1">
+                        <span class="movie-badge">MOVIE</span>
+                        <div class="movie-overlay">
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/m5FyFUZcnRI?si=kXwFc2QSqq1EOgtM','_blank')">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-card-content">
+                        <h3>THE ONLY BOY IN SS2</h3>
+                        <p>Released • 2025</p>
+                    </div>
+                </a>
+
+                <!-- 🟥 Spoilt SS2 Students -->
+                <a href="https://youtu.be/KQdDiWkBVZI?si=2D6p5lCyRK25s7kV" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
+                    <div class="movie-card-image">
+                        <img src="./media/tb12.jpg" alt="Spoilt SS2 Students">
+                        <span class="movie-badge">MOVIE</span>
+                        <div class="movie-overlay">
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/KQdDiWkBVZI?si=2D6p5lCyRK25s7kV','_blank')">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-card-content">
+                        <h3>SPOILT SS2 STUDENTS</h3>
+                        <p>Released • 2025</p>
+                    </div>
+                </a>
+
+                <!-- 🟩 Danfo Dreams -->
+                <a href="https://youtu.be/DGAl1uNQvwI?si=-QRf5CInxq3HW6vk" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
+                    <div class="movie-card-image">
+                        <img src="./media/tb8.jpg" alt="Danfo Dreams">
+                        <span class="movie-badge">MOVIE</span>
+                        <div class="movie-overlay">
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/DGAl1uNQvwI?si=-QRf5CInxq3HW6vk','_blank')">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-card-content">
+                        <h3>DANFO DREAMS</h3>
+                        <p>Released • 2025</p>
+                    </div>
+                </a>
+
+                <!-- 🟦 My School Love -->
+                <a href="https://youtu.be/LorvtFgreCU?si=wMKlnvBzW-HdT2h-" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
+                    <div class="movie-card-image">
+                        <img src="./media/tb9.jpg" alt="My School Love">
+                        <span class="movie-badge">MOVIE</span>
+                        <div class="movie-overlay">
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/LorvtFgreCU?si=wMKlnvBzW-HdT2h-','_blank')">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-card-content">
+                        <h3>MY SCHOOL LOVE</h3>
+                        <p>Released • 2025</p>
+                    </div>
+                </a>
+
+                <!-- 🟨 Love and the Crown -->
+                <a href="https://youtu.be/wlRpPcO0Ovk?si=FzUwUSSiafWpcA-w" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
+                    <div class="movie-card-image">
+                        <img src="./media/tb10.jpg" alt="Love and the Crown">
+                        <span class="movie-badge">MOVIE</span>
+                        <div class="movie-overlay">
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/wlRpPcO0Ovk?si=FzUwUSSiafWpcA-w','_blank')">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-card-content">
+                        <h3>LOVE AND THE CROWN </h3>
+                        <p>Released • 2025</p>
+                    </div>
+                </a>
+
+                <!-- 🟧 After School Complete Season -->
+                <a href="https://youtu.be/VKhNgZLkLes?si=hwjXCCnw4LzOx8jr" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
+                    <div class="movie-card-image">
+                        <img src="./media/TB11.jpg" alt="After School Complete Season">
+                        <span class="movie-badge">MOVIE</span>
+                        <div class="movie-overlay">
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/VKhNgZLkLes?si=hwjXCCnw4LzOx8jr','_blank')">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-card-content">
+                        <h3>AFTER SCHOOL COMPLETE SEASON</h3>
+                        <p>Released • 2024</p>
+                    </div>
+                </a>
+
+                <!-- 🟪 After School -->
+                <a href="https://youtu.be/PS91l1YMOn0?si=E5aJ4ujjmvLkOrxc" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
+                    <div class="movie-card-image">
+                        <img src="./media/tb14.jpg" alt="After School">
+                        <span class="movie-badge">MOVIE</span>
+                        <div class="movie-overlay">
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/PS91l1YMOn0?si=E5aJ4ujjmvLkOrxc','_blank')">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-card-content">
+                        <h3>AFTER SCHOOL</h3>
+                        <p>Released • 2024</p>
+                    </div>
+                </a>
+
+                <!-- 🟥 Fight For Me -->
+                <a href="https://youtu.be/zG_VtazFAy4?si=Zcnf1N67Kysfb235" target="_blank" class="movie-card"
+                    style="text-decoration:none; color:inherit;">
+                    <div class="movie-card-image">
+                        <img src="./media/tb13.jpg" alt="Fight For Me">
+                        <span class="movie-badge">MOVIE</span>
+                        <div class="movie-overlay">
+                            <button class="movie-play-btn"
+                                onclick="window.open('https://youtu.be/zG_VtazFAy4?si=Zcnf1N67Kysfb235','_blank')">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-card-content">
+                        <h3>FIGHT FOR ME</h3>
+                        <p>Released • 2024</p>
+                    </div>
+                </a>
+
+
             </div>
         </div>
+
+        <!-- 🎨 STYLES -->
+        <style>
+            /* 🔁 Background Slideshow */
+            .slideshow-bg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                z-index: 0;
+            }
+
+            .slideshow-bg .slide {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                opacity: 0;
+                animation: fadeSlide 36s infinite;
+                filter: brightness(0.8) contrast(1.1);
+            }
+
+            .slideshow-bg .slide:nth-child(1) {
+                animation-delay: 0s;
+            }
+
+            .slideshow-bg .slide:nth-child(2) {
+                animation-delay: 6s;
+            }
+
+            .slideshow-bg .slide:nth-child(3) {
+                animation-delay: 12s;
+            }
+
+            .slideshow-bg .slide:nth-child(4) {
+                animation-delay: 18s;
+            }
+
+            .slideshow-bg .slide:nth-child(5) {
+                animation-delay: 24s;
+            }
+
+            .slideshow-bg .slide:nth-child(6) {
+                animation-delay: 30s;
+            }
+
+            @keyframes fadeSlide {
+                0% {
+                    opacity: 0;
+                    transform: scale(1);
+                }
+
+                10% {
+                    opacity: 1;
+                    transform: scale(1.02);
+                }
+
+                25% {
+                    opacity: 1;
+                    transform: scale(1.05);
+                }
+
+                35% {
+                    opacity: 0;
+                    transform: scale(1.08);
+                }
+
+                100% {
+                    opacity: 0;
+                    transform: scale(1.08);
+                }
+            }
+
+            /* 🎞 Title */
+            @keyframes bounceTitle {
+
+                0%,
+                100% {
+                    transform: translateY(0);
+                }
+
+                50% {
+                    transform: translateY(-6px);
+                }
+            }
+
+            @keyframes shineText {
+                0% {
+                    background-position: -200%;
+                }
+
+                100% {
+                    background-position: 200%;
+                }
+            }
+
+            /* 🎬 Movie Grid */
+            .movies-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 25px;
+                padding: 0 20px;
+            }
+
+            @media (max-width: 992px) {
+                .movies-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 18px;
+                }
+            }
+
+            @media (max-width: 600px) {
+                .movies-grid {
+                    grid-template-columns: 1fr;
+                    gap: 15px;
+                }
+            }
+
+            .movie-card {
+                background: rgba(255, 255, 255, 0.08);
+                border-radius: 18px;
+                overflow: hidden;
+                transition: all 0.35s ease;
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.08);
+            }
+
+            .movie-card:hover {
+                transform: translateY(-6px) scale(1.02);
+                box-shadow: 0 10px 25px rgba(255, 0, 0, 0.25);
+            }
+
+            .movie-card-image {
+                position: relative;
+                width: 100%;
+                aspect-ratio: 16/9;
+                overflow: hidden;
+            }
+
+            .movie-card-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.4s ease;
+            }
+
+            .movie-card:hover img {
+                transform: scale(1.05);
+            }
+
+            .movie-badge {
+                position: absolute;
+                top: 12px;
+                left: 12px;
+                background: #ff0000;
+                color: #fff;
+                padding: 5px 10px;
+                font-size: 12px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+
+            .movie-overlay {
+                position: absolute;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.55);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+
+            .movie-card:hover .movie-overlay {
+                opacity: 1;
+            }
+
+            .movie-play-btn {
+                background: #ff0000;
+                border: none;
+                color: white;
+                font-size: 22px;
+                padding: 14px 18px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            .movie-card-content {
+                text-align: center;
+                padding: 18px;
+                color: #fff;
+            }
+
+            .movie-card-content h3 {
+                margin: 10px 0 6px;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 1.3;
+            }
+
+            .movie-card-content p {
+                font-size: 11px;
+                color: #bbb;
+            }
+        </style>
     </section>
 
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="assets/kenzy-portrait.jpg" alt="Kenzy">
-                </div>
-                <div class="about-text">
-                    <p>From going viral on TikTok to becoming a multi-platform artist, I have built a community of over 8 million followers across social media. My path has been a blend of music and acting, allowing me to share my art in different forms and connect with people in unique ways.</p>
-                    <p>My latest single "Unruly" marks my growth as an artist, mixing contemporary sounds with real storytelling that speaks to audiences worldwide.</p>
-                </div>
+
+
+    <!-- <section class="about-section">
+        <div class="about-overlay"></div>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="attached_assets/kenzzy 6.jpg" alt="Kenzy">
+            </div>
+            <div class="about-text">
+                <h2>About Kenzy</h2>
+                <p>
+                    From going viral on TikTok to becoming a multi-platform artist, I’ve built a community of over
+                    8 million followers across social media. My journey blends music and acting, sharing art in unique
+                    ways that connect deeply with people.
+                </p>
+                <p>
+                    My latest single <strong>“Unruly”</strong> reflects my growth — merging contemporary Afro sounds
+                    with powerful storytelling that resonates worldwide.
+                </p>
             </div>
         </div>
-    </section>
 
-    <section class="newsletter-section">
+        <style>
+            .about-section {
+                position: relative;
+                padding: 100px 10%;
+                overflow: hidden;
+                color: #fff;
+                background: radial-gradient(circle at top left, rgba(255, 0, 0, 0.2), rgba(0, 0, 0, 0.95) 70%);
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            /* Water drops animation background */
+            .about-overlay {
+                position: absolute;
+                inset: 0;
+                background: url('https://i.ibb.co/8PDzJbM/water-drops-texture.jpg') center/cover no-repeat;
+                mix-blend-mode: overlay;
+                opacity: 0.25;
+                animation: floatDrops 12s ease-in-out infinite alternate;
+                filter: brightness(0.8) contrast(1.1);
+            }
+
+            @keyframes floatDrops {
+                0% {
+                    transform: translateY(0px) scale(1);
+                    opacity: 0.25;
+                }
+
+                50% {
+                    transform: translateY(-20px) scale(1.05);
+                    opacity: 0.35;
+                }
+
+                100% {
+                    transform: translateY(0px) scale(1);
+                    opacity: 0.25;
+                }
+            }
+
+            .about-container {
+                display: flex;
+                gap: 60px;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                z-index: 2;
+                position: relative;
+                animation: fadeInUp 1.8s ease-in-out;
+            }
+
+            @keyframes fadeInUp {
+                from {
+                    transform: translateY(50px);
+                    opacity: 0;
+                }
+
+                to {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+
+            .about-image {
+                flex: 1;
+                min-width: 280px;
+                max-width: 400px;
+                text-align: center;
+            }
+
+            .about-image img {
+                width: 100%;
+                border-radius: 20px;
+                box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+                animation: glowPulse 4s ease-in-out infinite;
+                transition: transform 0.5s ease;
+            }
+
+            .about-image img:hover {
+                transform: scale(1.05);
+            }
+
+            @keyframes glowPulse {
+
+                0%,
+                100% {
+                    box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+                }
+
+                50% {
+                    box-shadow: 0 0 45px rgba(255, 0, 0, 0.7);
+                }
+            }
+
+            .about-text {
+                flex: 1.3;
+                min-width: 300px;
+                line-height: 1.8;
+                animation: fadeSlide 1.5s ease-in-out;
+                font-family: 'Cinzel', serif;
+
+            }
+
+            .about-text h2 {
+                font-size: clamp(28px, 5vw, 46px);
+                font-weight: 900;
+                margin-bottom: 20px;
+                background: linear-gradient(90deg, #ff0000, #fff, #ff0000);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                animation: shineText 5s linear infinite;
+                background-size: 200%;
+                font-family: 'Cinzel', serif;
+
+            }
+
+            @keyframes shineText {
+                0% {
+                    background-position: -100%;
+                }
+
+                100% {
+                    background-position: 200%;
+                }
+            }
+
+            @keyframes fadeSlide {
+                from {
+                    opacity: 0;
+                    transform: translateX(50px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+
+            .about-text p {
+                font-size: 1.0rem;
+                color: #ddd;
+                margin-bottom: 18px;
+                font-family: 'Cinzel', serif;
+
+            }
+
+            /* Responsive */
+            @media (max-width: 900px) {
+                .about-container {
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                .about-text {
+                    animation: fadeInUp 1.8s ease-in-out;
+                }
+
+                .about-section {
+                    padding: 80px 6%;
+                }
+            }
+        </style>
+    </section> -->
+
+    
+
+
+<section id="about" style="position: relative; width: 100%; height: 100vh; overflow: hidden; background: #000;">
+  <div class="dual-carousel">
+    <!-- Slide 1 -->
+    <div class="dual-slide active">
+      <img src="media/kenzzy 2.jpg" alt="Slide 1">
+      <img src="media/kenzzy 12.jpg" alt="Slide 2">
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="dual-slide">
+      <img src="media/kenzzy 5.jpg" alt="Slide 3">
+      <img src="media/kenzzy 3.jpg" alt="Slide 4">
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="dual-slide">
+      <img src="media/kenzzy 9.jpg" alt="Slide 5">
+      <img src="media/kenzzy 11.jpg" alt="Slide 6">
+    </div>
+
+        <!-- Slide 4 -->
+    <div class="dual-slide">
+      <img src="media/kenzzy 6.jpg" alt="Slide 7">
+      <img src="media/kenzzy 7.jpg" alt="Slide 8">
+    </div>
+
+    <!-- Overlay for cinematic fade -->
+    <div class="overlay"></div>
+  </div>
+
+  <style>
+    /* Container */
+    #dual-cinematic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+    }
+
+    .dual-carousel {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .dual-slide {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.8s ease-in-out;
+    }
+
+    .dual-slide.active {
+      opacity: 1;
+      z-index: 2;
+    }
+
+    .dual-slide img {
+      width: 50%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.35);
+      z-index: 3;
+    }
+
+    /* MOBILE VERSION: show one fullscreen image per slide */
+    @media (max-width: 768px) {
+      .dual-slide {
+        display: block;
+      }
+      .dual-slide img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  </style>
+
+  <script>
+    (function() {
+      const slides = document.querySelectorAll('.dual-slide');
+      let index = 0;
+      let timer;
+
+      function showSlide(i) {
+        slides.forEach((slide, idx) => {
+          slide.classList.toggle('active', idx === i);
+        });
+      }
+
+      function nextSlide() {
+        index = (index + 1) % slides.length;
+        showSlide(index);
+      }
+
+      function startAuto() {
+        timer = setInterval(nextSlide, 2700);
+      }
+
+      function stopAuto() {
+        clearInterval(timer);
+      }
+
+      const carousel = document.querySelector('.dual-carousel');
+      carousel.addEventListener('mouseenter', stopAuto);
+      carousel.addEventListener('mouseleave', startAuto);
+
+      startAuto();
+    })();
+  </script>
+</section>
+
+
+    <section class="newsletter-section new-newsletter-style">
         <div class="container">
             <h2 class="section-title">SUBSCRIBE FOR NEWSLETTER</h2>
-            <p class="newsletter-subtitle">Stay updated with my latest music releases, movie premieres, and exclusive content.</p>
+            <p class="newsletter-subtitle">
+                Stay updated with my latest music releases, movie premieres, and exclusive content.
+            </p>
             <form class="newsletter-form" id="newsletterForm">
                 <input type="email" placeholder="Enter your email address" required>
                 <button type="submit" class="btn-subscribe">Subscribe</button>
             </form>
         </div>
+
+        <style>
+            .new-newsletter-style {
+                background: linear-gradient(145deg, #000000, #1a0000);
+                color: #fff;
+                text-align: center;
+                padding: 70px 20px;
+                border-top: 1px solid rgba(255, 0, 0, 0.3);
+                border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+                position: relative;
+                overflow: hidden;
+            }
+
+            .new-newsletter-style::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: radial-gradient(circle at center, rgba(255, 0, 0, 0.15), transparent 70%);
+                animation: pulseGlow 6s ease-in-out infinite alternate;
+                z-index: 0;
+            }
+
+            @keyframes pulseGlow {
+                from {
+                    opacity: 0.2;
+                    transform: scale(1);
+                }
+
+                to {
+                    opacity: 0.5;
+                    transform: scale(1.1);
+                }
+            }
+
+            .new-newsletter-style .container {
+                position: relative;
+                z-index: 2;
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            .new-newsletter-style .section-title {
+                font-size: clamp(20px, 4vw, 28px);
+                font-weight: 800;
+                margin-bottom: 10px;
+                letter-spacing: 1px;
+                background: linear-gradient(90deg, #ff0000, #fff, #ff0000);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: shineText 5s linear infinite;
+                background-size: 200%;
+            }
+
+            @keyframes shineText {
+                0% {
+                    background-position: -100%;
+                }
+
+                100% {
+                    background-position: 200%;
+                }
+            }
+
+            .new-newsletter-style .newsletter-subtitle {
+                font-size: 0.95rem;
+                color: #ccc;
+                margin-bottom: 25px;
+                line-height: 1.6;
+            }
+
+            .new-newsletter-style .newsletter-form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+
+            .new-newsletter-style .newsletter-form input[type="email"] {
+                padding: 10px 15px;
+                border: 1px solid rgba(255, 0, 0, 0.3);
+                border-radius: 8px;
+                outline: none;
+                background: rgba(255, 255, 255, 0.05);
+                color: #fff;
+                font-size: 0.9rem;
+                width: 70%;
+                max-width: 320px;
+                transition: all 0.3s ease;
+            }
+
+            .new-newsletter-style .newsletter-form input[type="email"]:focus {
+                border-color: #ff0000;
+                box-shadow: 0 0 8px rgba(255, 0, 0, 0.4);
+            }
+
+            .new-newsletter-style .btn-subscribe {
+                background: linear-gradient(90deg, #ff0000, #990000);
+                color: #fff;
+                border: none;
+                padding: 10px 18px;
+                border-radius: 8px;
+                font-weight: 600;
+                font-size: 0.9rem;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .new-newsletter-style .btn-subscribe:hover {
+                background: linear-gradient(90deg, #990000, #ff0000);
+                transform: translateY(-2px);
+                box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+            }
+
+            @media (max-width: 600px) {
+                .new-newsletter-style {
+                    padding: 50px 15px;
+                }
+
+                .new-newsletter-style .newsletter-form input[type="email"] {
+                    width: 100%;
+                }
+
+                .new-newsletter-style .btn-subscribe {
+                    width: 100%;
+                }
+            }
+        </style>
     </section>
+
 
     <footer class="footer">
         <div class="container">
             <div class="social-icons">
-                <a href="#" aria-label="Instagram">
+                <a href="https://www.instagram.com/callmikenzy/" aria-label="Instagram">
                     <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                     </svg>
                 </a>
-                <a href="#" aria-label="TikTok">
+                <a href="https://www.tiktok.com/@callmikenzy1" aria-label="TikTok">
                     <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                        <path
+                            d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
                     </svg>
                 </a>
-                <a href="#" aria-label="YouTube">
+                <a href="https://www.youtube.com/@Callmikenzyy" aria-label="YouTube">
                     <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        <path
+                            d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
                     </svg>
                 </a>
-                <a href="#" aria-label="Snapchat">
+                <a href="https://www.snapchat.com/add/callmikenzy1" aria-label="Snapchat">
                     <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12.206.793c.99 0 4.347.276 5.93 3.821.529 1.193.403 3.219.299 4.847l-.003.06c-.012.18-.022.345-.03.51.075.045.203.09.401.09.3-.016.659-.12 1.033-.301.165-.088.344-.104.464-.104.182 0 .359.029.509.09.45.149.734.479.734.838.015.449-.39.839-1.213 1.168-.089.029-.209.075-.344.119-.45.135-1.139.36-1.333.81-.09.224-.061.524.12.868l.015.015c.06.136 1.526 3.475 4.791 4.014.255.044.435.27.42.509 0 .075-.015.149-.045.225-.24.569-1.273.988-3.146 1.271-.059.091-.12.375-.164.57-.029.179-.074.36-.134.553-.076.271-.27.405-.555.405h-.03c-.135 0-.313-.031-.538-.074-.36-.075-.765-.135-1.273-.135-.3 0-.599.015-.913.074-.6.104-1.123.464-1.723.884-.853.599-1.826 1.288-3.294 1.288-.06 0-.119-.015-.18-.015h-.149c-1.468 0-2.427-.675-3.279-1.288-.599-.42-1.107-.779-1.707-.884-.314-.045-.629-.074-.928-.074-.54 0-.958.089-1.272.149-.211.043-.391.074-.54.074-.374 0-.523-.224-.583-.42-.061-.192-.09-.389-.135-.567-.046-.181-.105-.494-.166-.57-1.918-.222-2.95-.642-3.189-1.226-.031-.063-.052-.12-.063-.179 0-.226.181-.465.431-.524 3.236-.54 4.791-3.879 4.836-3.984.091-.226.136-.389.136-.524 0-.174-.016-.344-.031-.48-.134-.719-.45-1.772-.45-2.58 0-1.2.015-3.3.615-4.438C7.859 1.041 11.206.793 12.206.793z"/>
+                        <path
+                            d="M12.206.793c.99 0 4.347.276 5.93 3.821.529 1.193.403 3.219.299 4.847l-.003.06c-.012.18-.022.345-.03.51.075.045.203.09.401.09.3-.016.659-.12 1.033-.301.165-.088.344-.104.464-.104.182 0 .359.029.509.09.45.149.734.479.734.838.015.449-.39.839-1.213 1.168-.089.029-.209.075-.344.119-.45.135-1.139.36-1.333.81-.09.224-.061.524.12.868l.015.015c.06.136 1.526 3.475 4.791 4.014.255.044.435.27.42.509 0 .075-.015.149-.045.225-.24.569-1.273.988-3.146 1.271-.059.091-.12.375-.164.57-.029.179-.074.36-.134.553-.076.271-.27.405-.555.405h-.03c-.135 0-.313-.031-.538-.074-.36-.075-.765-.135-1.273-.135-.3 0-.599.015-.913.074-.6.104-1.123.464-1.723.884-.853.599-1.826 1.288-3.294 1.288-.06 0-.119-.015-.18-.015h-.149c-1.468 0-2.427-.675-3.279-1.288-.599-.42-1.107-.779-1.707-.884-.314-.045-.629-.074-.928-.074-.54 0-.958.089-1.272.149-.211.043-.391.074-.54.074-.374 0-.523-.224-.583-.42-.061-.192-.09-.389-.135-.567-.046-.181-.105-.494-.166-.57-1.918-.222-2.95-.642-3.189-1.226-.031-.063-.052-.12-.063-.179 0-.226.181-.465.431-.524 3.236-.54 4.791-3.879 4.836-3.984.091-.226.136-.389.136-.524 0-.174-.016-.344-.031-.48-.134-.719-.45-1.772-.45-2.58 0-1.2.015-3.3.615-4.438C7.859 1.041 11.206.793 12.206.793z" />
                     </svg>
                 </a>
-                <a href="#" aria-label="Facebook">
+                <a href="https://www.facebook.com/iamkenzy/" aria-label="Facebook">
                     <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        <path
+                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                     </svg>
                 </a>
             </div>
@@ -310,4 +1463,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
